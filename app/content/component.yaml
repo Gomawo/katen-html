@@ -1,0 +1,22 @@
+---
+title: Components
+description: A very simple way to add structured data to a page.
+heading:
+    one: "h1.Heading-1"
+    two: "h2.Heading-2"
+    three: "h3.Heading-3"
+    four: "h4.Heading-4"
+    five: "h5.Heading-5"
+    six: "h6.Heading-6"
+    custom:
+        left: "heading-custom-left.Editor's Pick"
+        center: "heading-custom-center.Explore Topics"
+
+p: "p.Paragraph"
+a: "a.Link"
+span: "span.Span"
+ul:
+    one: "li.First-Line"
+    two: "li.Second-Line"
+    three: "li.Third-Line"
+---

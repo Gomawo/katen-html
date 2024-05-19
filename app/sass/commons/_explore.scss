@@ -1,0 +1,36 @@
+.content{
+	border-radius: 15px;
+	border: 1px solid;
+	width: 50%;
+}
+.explore h3{
+	margin-top: 15px;
+	text-align: center;
+}
+
+#dropdown{
+	list-style-type: none;
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+.explore-icon{
+	width: 14px;
+	height: auto;
+	margin-right: 16px;
+}
+
+.list-style li{
+	padding-bottom: 10px;
+	background: linear-gradient(white, white) padding-box,
+	linear-gradient(to left, white, gray);
+	border: 1px solid transparent;
+	padding-top: 10px;
+	position: relative;
+	border-top: white;
+}
+
+.explore-number{
+	position: absolute;
+	right: 25px;
+	color: gray;
+}

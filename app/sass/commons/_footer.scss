@@ -1,0 +1,19 @@
+footer {
+    margin-top: 50px;
+    .footer-inner {
+        border-top: solid 1px #EBEBEB;
+        padding: 40px 0;
+  
+        .copyright {
+          color: #9faabb;
+        }
+  
+        .float-md-end{
+          border: solid 1px #EBEBEB;
+          border-radius: 25px;
+          color: #8F9BAD;
+          text-decoration: none;
+          padding: 6px 20px;
+        }
+      }
+    }

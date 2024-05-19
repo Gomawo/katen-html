@@ -1,0 +1,105 @@
+html, .root {
+	font-size: 16px;
+	line-height: 1.15;
+}
+body, .article {
+	font-family: $font-family-base;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	text-align: left;
+}
+h1, .h1 {
+	font-size: 40px;
+}
+h2, .h2 {
+	font-size: 32px;
+}
+h3, .h3 {
+	font-size: 28px;
+}
+h4, .h4 {
+	font-size: 24px;
+}
+h5, .h5 {
+	font-size: 20px;
+}
+
+h6, .h6 {
+	font-size: 16px;
+}
+
+.h1, .h2, .h3,.h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	font-family: $font-family-poppins-semibold;
+	margin-bottom: 8px;
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+p, ul, ol, pre, table, blockquote {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	list-style: none;
+}
+
+/* Let's make sure all's aligned */
+hr, .hr {
+	border: 1px solid;
+	margin: -1px 0;
+}
+a, b, i, strong, em, small, code {
+	line-height: 0;
+	color: $color--gray;
+}
+sub, sup {
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -8px;
+}
+sub {
+	bottom: -4px;
+}
+span, ul, ol, a {
+	font-family: $font-family-roboto-regular;
+}
+p, .p{
+	font-family: $font-family-roboto-light;
+	color: $color--gray;
+}
+
+*, ::after, ::before {
+	box-sizing: border-box;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+heading {
+	&-custom {
+		&-left {
+			font-family: $font-family-poppins-medium;
+			font-size: 28px;
+			letter-spacing: -.64px;
+			background-image: url('../images/wave.svg');
+			background-repeat: no-repeat;
+			background-position: left bottom;
+			margin-bottom: 8px;
+			line-height: 1.2;
+		}
+		&-center {
+			font-family: $font-family-poppins-medium;
+			font-size: 24px;
+			letter-spacing: -.64px;
+			justify-content: center;
+			background-image: url('../images/wave.svg');
+			background-repeat: no-repeat;
+			background-position: center bottom;
+			margin-bottom: 8px;
+			line-height: 1.2;
+		}
+	}
+}

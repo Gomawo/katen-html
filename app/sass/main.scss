@@ -1,0 +1,18 @@
+// @import 'vendor';
+
+/**
+ * Base
+ */
+@import './base/breakpoints';
+@import './base/color-palette';
+@import './base/fonts';
+@import './base/mixins';
+@import './base/spacings';
+@import './base/variables';
+@import './base/typography';
+
+// @import './templates/default';
+@import './commons/_sidebar';
+@import './commons/_header';
+@import './commons/_footer';
+@import './commons/_explore';
